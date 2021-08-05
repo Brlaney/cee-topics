@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { title, keywords, description } from '@/lib/seo'
-import 'semantic-ui-css/semantic.min.css'
+import '@/styles/globals.scss'
 
 
 export default function MyApp(props: AppProps) {

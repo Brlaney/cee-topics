@@ -1,34 +1,31 @@
 import React from 'react'
-import { Button, Container, Grid, Header, Segment } from 'semantic-ui-react'
-import styles from '@/styles/Home.module.scss'
 
 
-export default function Home() {
-  return (
-    <>
-      <Container className={styles.container}>
-        <Header content='Civil Engineering Topics' className={styles.header} />
-        <Grid className={styles.grid} columns={3} doubling>
-          <Grid.Column>
-            <Segment>Content 1</Segment>
-          </Grid.Column>
-          <Grid.Column>
-            <Segment>Content 2</Segment>
-          </Grid.Column>
-          <Grid.Column>
-            <Segment>Content 3</Segment>
-          </Grid.Column>
-          <Grid.Column>
-            <Segment>Content 4</Segment>
-          </Grid.Column>
-          <Grid.Column>
-            <Segment>Content 5</Segment>
-          </Grid.Column>
-          <Grid.Column>
-            <Segment>Content 6</Segment>
-          </Grid.Column>
-        </Grid>
-      </Container>
-    </>
-  )
-}
+const Home = () => (
+  <>
+    <div id='container' className='uk-container'>
+      <div id='titleCard' className='uk-card uk-card-body'>
+        <h1 id='title' className='uk-heading-large uk-heading-divider'>
+          Cee Topics
+        </h1>
+        <h2 id='subtitle' className='uk-heading-bullet'>
+          Civil Engineering topics demonstrated visually
+        </h2>
+      </div>
+      <div id='card' className='uk-card uk-card-primary uk-card-hover uk-card-body uk-light'>
+        <h3 className='main-buttons'>Structures</h3>
+      </div>
+      <div id='card' className='uk-card uk-card-primary uk-card-hover uk-card-body uk-light'>
+        <h3 className='main-buttons'>Hydraulics</h3>
+      </div>
+      <div id='card' className='uk-card uk-card-primary uk-card-hover uk-card-body uk-light'>
+        <h3 className='main-buttons'>Steel</h3>
+      </div>
+      <div id='card' className='uk-card uk-card-secondary uk-card-hover uk-card-body'>
+        <h3 className='main-buttons'>Information</h3>
+      </div>
+    </div>
+  </>
+)
+
+export default Home

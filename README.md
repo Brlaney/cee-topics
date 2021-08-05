@@ -7,7 +7,7 @@
   </p>
   <h1>Cee-topics</h1>
   <h5>A fun web app to showcase Civil Engineering topics</h5>
-  <p><b>Cee-topics</b> is a <b>Next.js app</b> that uses Typescript, Sass, and UI from Semantic-UI.</p>
+  <p><b>Cee-topics</b> is a <b>Next.js app</b> that uses Typescript, Sass, and UI from Ui-Kit.</p>
 </div>
 
 # Table Of Contents
@@ -24,7 +24,7 @@
 
 # Features
 
-- ✅ Frontend-UI from [Semantic-UI](https://react.semantic-ui.com/)
+- ✅ Frontend-UI from [Ui-Kit](https://getuikit.com/)
 
 </br>
 

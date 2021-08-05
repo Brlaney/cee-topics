@@ -1,16 +1,52 @@
+@import './theme';
+
 html,
 body {
+  min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
 * {
+  font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  height: 100vh;
+  width: 80%;
+  #titleCard {
+    margin-top: 0.77rem;
+    color: $text-med;
+    #title {
+      color: $text-dark;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 0.66rem;
+    }
+    #subtitle {
+      text-align: left;
+      margin-top: 0.5rem;
+      padding: 0;
+      color: $text-med;
+    }
+  }
+  #card {
+    margin: 1.66rem 0.88rem 0.88rem 0.88rem;
+    padding: 1.1rem;
+    border-radius: 10px;
+    .main-buttons {
+      font-size: 1.5rem;
+    }
+  }
 }
